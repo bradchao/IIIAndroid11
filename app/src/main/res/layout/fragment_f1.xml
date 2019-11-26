@@ -14,4 +14,16 @@
         android:textSize="24sp"
         />
 
+    <TextView
+        android:id="@+id/f1_lottery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <Button
+        android:id="@+id/f1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lottery"
+        />
+
 </LinearLayout>

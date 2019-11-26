@@ -23,11 +23,13 @@
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:onClick="toF1"
             android:text="Test1"/>
         <Button
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:onClick="toF2"
             android:text="Test2"/>
         <Button
             android:layout_width="0dp"
