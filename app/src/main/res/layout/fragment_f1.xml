@@ -25,5 +25,17 @@
         android:layout_height="wrap_content"
         android:text="Lottery"
         />
+    <Button
+        android:id="@+id/f1_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test2"
+        />
+    <Button
+        android:id="@+id/f1_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test3"
+        />
 
 </LinearLayout>
