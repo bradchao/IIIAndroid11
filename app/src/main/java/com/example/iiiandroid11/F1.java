@@ -24,17 +24,18 @@ public class F1 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        mainView = inflater.inflate(R.layout.fragment_f1, container, false);
+        if (mainView == null) {
+            mainView = inflater.inflate(R.layout.fragment_f1, container, false);
 
-        lottery = mainView.findViewById(R.id.f1_lottery);
-        btnLottery = mainView.findViewById(R.id.f1_btn);
-        btnLottery.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                lottery.setText("" + (int)(Math.random()*49+1));
-            }
-        });
-
+            lottery = mainView.findViewById(R.id.f1_lottery);
+            btnLottery = mainView.findViewById(R.id.f1_btn);
+            btnLottery.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    lottery.setText("" + (int) (Math.random() * 49 + 1));
+                }
+            });
+        }
         return mainView;
     }
 
